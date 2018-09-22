@@ -1,8 +1,8 @@
 # code your #position_taken? method here!
 
-def position_taken?(arr, index)
-  if arr[index] == " "
-    false 
+def position_taken?(array, index)
+  if array[index] == " "
+    return false 
   else 
-    true 
+    return true 
 end
